@@ -1,0 +1,3 @@
+* Setup Linux scripts
+
+Scripts I ues to setup Linux after install.
