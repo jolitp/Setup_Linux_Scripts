@@ -1,0 +1,2 @@
+* setup linux scripts TODOs
+** TODO make a basic shell script to install script dependencies
