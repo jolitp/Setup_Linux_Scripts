@@ -1,2 +1,89 @@
 * setup linux scripts TODOs
 ** TODO make a basic shell script to install script dependencies
+** TODO use litarate programming to document the scripts using org-mode
+* Linux packages to install from sfficial repositories
+** TODO python
+** TODO emacs
+** TODO zsh
+** TODO ffmpeg
+sudo apt install brave-browser
+** TODO audacity
+** TODO avidemux
+** TODO virtual camera support for obs
+sudo apt install v4l2loopback-dkms
+** TODO darktable
+** TODO gimp
+** TODO filelight
+** TODO pcmanfm
+** TODO handbrake
+** TODO kdenlive
+** TODO htop
+** TODO hexchat
+** TODO shotcut
+** TODO nemo
+** TODO kdeconnect
+** TODO kitty
+** TODO libreoffice
+** TODO llms
+** TODO mediainfo
+** TODO mpv player
+** TODO vlc player
+** TODO neovim
+** TODO okular
+** TODO krita
+** TODO qbittorrent
+** TODO qdirstat
+** TODO qjackctl
+** TODO scribus
+** TODO simple screen recorder
+** TODO spacefm
+** TODO speedcrunch
+** TODO tilix
+** TODO timux
+** TODO vim
+** TODO vidrtualbox
+** TODO timeshift
+** TODO yakuake
+* packages from third party repositories
+** TODO brave browser
+sudo apt install apt-transport-https curl
+
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt update
+
+sudo apt install ffmpeg
+** TODO OBS
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio
+** TODO albert
+* software that are not on repositories
+** TODO recent blender versions
+** TODO godot versions
+** TODO recent version of inkscape
+** TODO Broot
+** TODO exa
+** TODO oh my zsh
+** TODO powerlevel10k
+** TODO unity
+** TODO rustup
+* software downloaded .deb file
+** TODO dropbox
+** TODO google chrome
+** TODO visual studio code
+* software from source
+** TODO citra
+** TODO unreal engine
+* I don't remember where I got it from
+** TODO dupeguru
+** TODO discord
+** TODO kite
+** TODO openjdk
+** TODO android studio
+** TODO solaar
+** TODO stacer
+** TODO Team viewer
+** TODO ubuntu studio apps?
