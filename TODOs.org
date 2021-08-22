@@ -1,51 +1,64 @@
 * setup linux scripts TODOs
 ** TODO make a basic shell script to install script dependencies
 ** TODO use litarate programming to document the scripts using org-mode
-* Linux packages to install from sfficial repositories
-** TODO python
-** TODO emacs
-** TODO zsh
-** TODO ffmpeg
-sudo apt install brave-browser
-** TODO audacity
-** TODO avidemux
-** TODO virtual camera support for obs
-sudo apt install v4l2loopback-dkms
-** TODO darktable
-** TODO gimp
-** TODO filelight
-** TODO pcmanfm
-** TODO handbrake
-** TODO kdenlive
-** TODO htop
-** TODO hexchat
-** TODO shotcut
-** TODO nemo
-** TODO kdeconnect
-** TODO kitty
-** TODO libreoffice
+* Linux packages to install from official repositories
+** DONE python
+** DONE emacs
+** DONE zsh
+** DONE ffmpeg
+** DONE audacity
+** DONE darktable
+** DONE gimp
+** DONE filelight
+** DONE kde partition manager
+** NO pcmanfm
+** DONE handbrake
+** DONE kdenlive
+** DONE htop
+** NO hexchat
+** DONE shotcut
+** NO nemo
+** DONE kdeconnect
+already installed on neon
+** DONE kitty
+** DONE libreoffice
 ** TODO llms
-** TODO mediainfo
-** TODO mpv player
-** TODO vlc player
-** TODO neovim
-** TODO okular
-** TODO krita
-** TODO qbittorrent
-** TODO qdirstat
+sudo add-apt-repository ppa:ubuntuhandbook1/lmms
+sudo apt update
+sudo apt install lmms
+** DONE mediainfo
+** DONE mpv player
+** DONE zenity
+** DONE xdotool
+** DONE vlc player
+already installed on neon
+** DONE neovim
+** DONE okular
+already installed on neon
+** DONE krita
+** DONE qbittorrent
+** DONE qdirstat
 ** TODO qjackctl
 ** TODO scribus
-** TODO simple screen recorder
-** TODO spacefm
-** TODO speedcrunch
-** TODO tilix
-** TODO timux
-** TODO vim
+** DONE simple screen recorder
+** TODO inkscape
+** TODO musescore
+** NO spacefm
+** DONE speedcrunch
+** NO tilix
+** DONE timux
+** DONE vim
 ** TODO vidrtualbox
-** TODO timeshift
-** TODO yakuake
+** TODO wine
+** TODO winetricks
+** TODO lutris
+** TODO steam
+** TODO virtmanager
+and all dependencies
+** DONE timeshift
+** DONE yakuake
 * packages from third party repositories
-** TODO brave browser
+** DONE brave browser
 sudo apt install apt-transport-https curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -54,22 +67,26 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 
 sudo apt update
 
-sudo apt install ffmpeg
-** TODO OBS
+sudo apt install brave-browser
+** DONE OBS
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
+sudo apt install ffmpeg
 sudo apt install obs-studio
-** TODO albert
+*** DONE virtual camera support for obs
+sudo apt install v4l2loopback-dkms
+** NO albert
 * software that are not on repositories
+** TODO avidemux
+** TODO rustup
 ** TODO recent blender versions
 ** TODO godot versions
 ** TODO recent version of inkscape
 ** TODO Broot
 ** TODO exa
-** TODO oh my zsh
+** DONE oh my zsh
 ** TODO powerlevel10k
 ** TODO unity
-** TODO rustup
 * software downloaded .deb file
 ** TODO dropbox
 ** TODO google chrome
@@ -80,10 +97,24 @@ sudo apt install obs-studio
 * I don't remember where I got it from
 ** TODO dupeguru
 ** TODO discord
-** TODO kite
+** NO kite
 ** TODO openjdk
 ** TODO android studio
 ** TODO solaar
 ** TODO stacer
 ** TODO Team viewer
 ** TODO ubuntu studio apps?
+* setup further
+** TODO setup emacs server and client
+* applications on Applications folder
+** TODO avidemux
+** TODO godot
+*** TODO master
+*** TODO 3.4
+** TODO blender
+*** TODO master
+*** TODO lts
+*** TODO beta
+*** TODO alpha
+** TODO activitywatch
+** TODO applet-window-buttons-0.8.1
